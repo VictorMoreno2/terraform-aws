@@ -1,0 +1,8 @@
+echo "server1 ansible_host=52.207.235.233 ansible_ssh_private_key_file=/root/victor-aws.pem ansible_user=ubuntu ansible_become=yes" > ~/inventory
+ansible server1 -i inventory -m ping 
+ansible-playbook playbook.yml server1
+
+ou adicinar esse echo no /etc/ansible/hosts
+
+host_key_checking = False
+/etc/ansible/ansible.cfgou ~/.ansible.cfg
