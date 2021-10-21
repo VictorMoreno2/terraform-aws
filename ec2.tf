@@ -1,8 +1,10 @@
-resource "aws_instance" "web" {
-  ami           = "ami-0885b1f6bd170450c"
-  instance_type = "t2.micro"
+resource "aws_instance" "ubuntao" {
+  ami = "${var.ami["us-east-1-ubuntu20"]}"
+  instance_type = "${var.instance_type.micro}"
+  key_name = "${var.key_victor.key}"
+  public_key = "<key_pub_value>"
 
   tags = {
-    Name = "terraform-test"
+    Name = "HelloWorld"
   }
 }
