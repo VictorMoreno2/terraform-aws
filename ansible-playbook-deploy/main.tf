@@ -42,7 +42,6 @@ resource "aws_instance" "nginx" {
   ami                         = "ami-0885b1f6bd170450c"
   subnet_id                   = "subnet-0706c0d7c5b09a8eb"
   instance_type               = "t2.micro"
-  associate_public_ip_address = true
   security_groups             = [aws_security_group.nginx.id]
   key_name                    = local.key_name
 

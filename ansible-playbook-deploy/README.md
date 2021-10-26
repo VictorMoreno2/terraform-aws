@@ -5,6 +5,3 @@
 Ansible 
 export ANSIBLE_CONFIG=$PWD/ansible.cfg ### WSL linux problem permission mount
 colocar key aws na home do user
-
-SSH
-Colocar na home do user
