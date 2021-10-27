@@ -1,0 +1,5 @@
+gitlab_token: m5Bmmej-LSK47gheLEzG
+gitlab_url: http://10.0.0.10
+gitlab_executor: shell
+gitlab_description: teste-shell
+gitlab_tag: teste-shell
