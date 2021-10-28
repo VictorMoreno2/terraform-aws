@@ -25,6 +25,6 @@
            --url "{{ gitlab_url }}" \
            --registration-token "{{ gitlab_token  }}" \
            --executor "{{ gitlab_executor }}" \
-           --description "{{ gitlab_description }}" \ 
+           --description "{{ gitlab_description }}" \
            --tag-list "{{ gitlab_tag }}" \
            --locked="false"   
