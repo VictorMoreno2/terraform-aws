@@ -29,3 +29,4 @@
            --tag-list "{{ gitlab_tag }}" \
            --locked="false" \
            #--run-untagged   ### se quiser rodar untagged
+  ignore_errors: yes         
