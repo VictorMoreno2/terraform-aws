@@ -27,4 +27,5 @@
            --executor "{{ gitlab_executor }}" \
            --description "{{ gitlab_description }}" \
            --tag-list "{{ gitlab_tag }}" \
-           --locked="false"   
+           --locked="false" \
+           #--run-untagged   ### se quiser rodar untagged
