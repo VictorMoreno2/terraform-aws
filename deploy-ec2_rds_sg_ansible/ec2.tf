@@ -12,7 +12,7 @@ data "aws_ami" "ubuntu" {
 resource "aws_instance" "gitlab_docker" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = var.instance_type
-  security_groups             = [aws_security_group.ssh.id]
+  vpc_security_group_ids      = [aws_security_group.ssh.id]
   key_name                    = var.key_config.key_name
   subnet_id                   = var.subnet_id
 
