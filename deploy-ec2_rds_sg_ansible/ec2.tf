@@ -35,6 +35,3 @@ resource "aws_instance" "gitlab_docker" {
   }
 }
 
-output "gitlab_docker_ip" {
-  value = aws_instance.gitlab_docker.public_ip
-}
