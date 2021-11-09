@@ -1,6 +1,6 @@
 Repo para automação terraform 
 
-Necessário a key estar na home do usuario para o ansible utilizar
+Necessário a key estar na home do usuario para o ansible utilizare dar a permissão 400 
 
 para sobreescrever variavel do ansible usando WSL2
 ```

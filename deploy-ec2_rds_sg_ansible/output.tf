@@ -7,7 +7,7 @@ output "rds_address" {
 }
 
 output "rds_username" {
-  value = aws_db_instance.rds_mysql.username 
+  value = aws_db_instance.rds_mysql.username
 }
 
 output "rds_engine_version_actual" {
