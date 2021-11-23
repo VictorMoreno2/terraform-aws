@@ -1,5 +1,7 @@
 Repo para automação terraform 
 
+**Projeto feito com vpc e subnets defaults**
+
 Necessário a key estar na home do usuario para o ansible utilizare dar a permissão 400 
 
 para sobreescrever variavel do ansible usando WSL2
