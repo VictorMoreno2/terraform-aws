@@ -20,3 +20,6 @@ aws_secret_access_key=*****************
 
 ```
 shared_credentials_file = "<PATH>"
+
+ansible hosts example
+server1 ansible_host=1.1.1.3 ansible_ssh_private_key_file=~/key.pem ansible_user=ubuntu ansible_become=yes
